@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+  .tabs h1 {
+    display: flex;
+    align-items: center;
+    font-size: 4em;
+    text-align: center;
+    margin-top: 85px;
+  }
+
+  .tab .content {
+    height: 45%;
+  }
+}

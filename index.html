@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/e57c2904bb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="app/css/style.css">
+    <title>15 paskaita. Užduotis</title>
+<body>
+  <div class="buttons">
+    <button onclick="changeHeader('pirmas')" >Lithuania's seaside</button>
+    <button onclick="changeHeader('antras')">Beautiful lakes</button>
+    <button onclick="changeHeader('trecias')">Forests</button>
+  </div>
+  <div class="tabs">
+      <h1>Explore Lithuania this summer</h1>
+      <div class="info">     <img src="../uzduotis/app/img/infologo.png" alt="">
+      <a href="https://www.lithuania.travel/en/" target="_blank"> 
+      Travel Guide
+      </a>
+    </div>
+        <div id="pirmas" class="tab">  
+          <video autoplay="autoplay" loop muted>
+            <source src="app/video/sea.mp4">
+          </video>
+          <div class="content">  <h2>Lithuania's seaside</h2>
+    <p>Lithuanian seaside is the perfect spot for a perfect vacation. With six distinct destinations – Klaipėda, Kretinga, Neringa, Šilutė, Palanga, and the Klaipėda region – there’s no shortage of opportunities to enjoy the coolness of the sea, the warmth of the sun, and numerous local attractions. All the destinations can be easily reached by car, RV, international coach, train, direct flight to Palanga Airport, or sea ferries calling at Klaipėda port. Even though the Lithuanian seaside is a hotspot for summer fun, there’s plenty to do out of season.</p></div>
+    
+      </div>
+        <div id="antras" class="tab">  
+          <video autoplay="autoplay" loop muted>
+            <source src="app/video/lake.mp4">
+          </video>
+          <div class="content"> <h2>Beautiful lakes</h2>
+    <p>If you didn’t already know, we have almost 3,000 lakes in Lithuania. Hidden deep in the woods and soaking up the sun rays at campsites, rural homesteads, manors and luxury hotels, the lakes invite you to dive into a different type of recreation. One that promises serenity and fresh air that revives the tired body, drives away stress, clears the thoughts, and provides the opportunity to experience Lithuania’s fantastic nature. </p>
+      <br>
+    </div>
+      </div>
+      <div id="trecias" class="tab">  
+              <video autoplay="autoplay" loop muted>
+            <source src="app/video/forest.mp4">
+          </video>
+          <div class="content"> <h2>Forests</h2>
+    <p>Lithuania is nearly 40% covered by dense forests. Many of these amazing forests are protected by Lithuania’s five incredible national parks, which are located across the country. These forests provide homes for unique wildlife, such as roe deer, wild boar, and hedgehogs, and delicate flora including mosses, wild berries, and carnivorous plants.</p></div>
+     
+      </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
